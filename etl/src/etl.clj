@@ -11,12 +11,4 @@
     (map hash-map 
       (map clojure.string/lower-case (second item))
       (repeat (count (second item)) (first item)))))
-  
-
-  
-      
-    
-
-
-  
 
